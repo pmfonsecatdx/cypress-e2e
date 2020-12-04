@@ -1,0 +1,13 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "6.0.1",
+    "cypress-cucumber-preprocessor": "4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
